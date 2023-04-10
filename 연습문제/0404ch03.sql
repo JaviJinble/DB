@@ -1,53 +1,53 @@
-/*°í°´ÀÌ ÁÖ¹®ÇÑ µµ¼­ÀÇ ÆÇ¸Å°¡°İ°ú °í°´ÀÇ ÀÌ¸§*/
+/*ê³ ê°ì´ ì£¼ë¬¸í•œ ë„ì„œì˜ íŒë§¤ê°€ê²©ê³¼ ê³ ê°ì˜ ì´ë¦„*/
 select name, saleprice
 from Customer, Orders
 where Customer.custid=Orders.custid;
 
-/*¿ÜºÎÁ¶ÀÎÀ¸·Î µµ¼­¸¦ ±¸¸ÅÇÏÁö ¾ÊÀº °í°´À» Æ÷ÇÔ ½ÃÅ´*/
+/*ì™¸ë¶€ì¡°ì¸ìœ¼ë¡œ ë„ì„œë¥¼ êµ¬ë§¤í•˜ì§€ ì•Šì€ ê³ ê°ì„ í¬í•¨ ì‹œí‚´*/
 select name, saleprice
 from Customer left outer join Orders on Customer.custid=Orders.custid;
 
-/*¿ŞÂÊ¿ÜºÎÁ¶ÀÎ(+)*/
+/*ì™¼ìª½ì™¸ë¶€ì¡°ì¸(+)*/
 select Customer.name, saleprice
 from Customer, orders
 where customer.custid=orders.custid(+);
 
-/*°¡Àå ºñ½Ñ µµ¼­ÀÇ °¡°İ Ç¥½Ã*/
+/*ê°€ì¥ ë¹„ì‹¼ ë„ì„œì˜ ê°€ê²© í‘œì‹œ*/
 select max(price)
 from book;
 
-/*°¡Àå ºñ½Ñ µµ¼­ÀÇ ÀÌ¸§*/
+/*ê°€ì¥ ë¹„ì‹¼ ë„ì„œì˜ ì´ë¦„*/
 select bookname
 from book
 where price=35000;
 
-/*°¡Àå ºñ½Ñ µµ¼­ÀÇ ÀÌ¸§*/
+/*ê°€ì¥ ë¹„ì‹¼ ë„ì„œì˜ ì´ë¦„*/
 select bookname
 from book
 where price=(select max(price) from book);
 
-/*ÁÖ¹®ÇÑ °í°´ÀÇ °í°´¹øÈ£¸¦ Ã£±â*/
+/*ì£¼ë¬¸í•œ ê³ ê°ì˜ ê³ ê°ë²ˆí˜¸ë¥¼ ì°¾ê¸°*/
 select custid
 from orders;
 
-/*°í°´ ¾ÆÀÌµğ¿¡ ÇØ´çÇÏ´Â °í°´ ÀÌ¸§ Ã£±â*/
+/*ê³ ê° ì•„ì´ë””ì— í•´ë‹¹í•˜ëŠ” ê³ ê° ì´ë¦„ ì°¾ê¸°*/
 select name
 from customer
 where custid in (1, 2, 3, 4);
 
-/*µµ¼­¸¦ ±¸¸ÅÇÑ ÀûÀÌ ÀÖ´Â °í°´ÀÇ ÀÌ¸§À» °Ë»öÇÏ½Ã¿À.*/
+/*ë„ì„œë¥¼ êµ¬ë§¤í•œ ì ì´ ìˆëŠ” ê³ ê°ì˜ ì´ë¦„ì„ ê²€ìƒ‰í•˜ì‹œì˜¤.*/
 select name
 from customer
 where custid in (select custid from orders);
 
-/*»ó°ü ºÎ¼ÓÁúÀÇ > ÃâÆÇ»çº° ÃâÆÇ»çÀÇ Æò±Õº¸´Ù ºñ½Ñµµ¼­*/
+/*ìƒê´€ ë¶€ì†ì§ˆì˜ > ì¶œíŒì‚¬ë³„ ì¶œíŒì‚¬ì˜ í‰ê· ë³´ë‹¤ ë¹„ì‹¼ë„ì„œ*/
 select b1.bookname
 from book b1
 where b1.price > (select avg(b2.price)
                 from book b2
                 where b2.publisher=b1.publisher);
                 
-/*µµ¼­¸¦ ÁÖ¹®ÇÏÁö ¾ÊÀº °í°´ÀÇ ÀÌ¸§À» º¸ÀÌ½Ã¿À*/
+/*ë„ì„œë¥¼ ì£¼ë¬¸í•˜ì§€ ì•Šì€ ê³ ê°ì˜ ì´ë¦„ì„ ë³´ì´ì‹œì˜¤*/
 select name
 from customer;
 
@@ -55,7 +55,7 @@ select name
 from customer
 where custid in (select custid from orders);
 
-/*µµ¼­¸¦ ÁÖ¹®ÇÏÁö ¾ÊÀº °í°´ÀÇ ÀÌ¸§À» º¸ÀÌ½Ã¿À*/
+/*ë„ì„œë¥¼ ì£¼ë¬¸í•˜ì§€ ì•Šì€ ê³ ê°ì˜ ì´ë¦„ì„ ë³´ì´ì‹œì˜¤*/
 select name
 from customer
 minus
@@ -63,7 +63,7 @@ select name
 from customer
 where custid in (select custid from orders);
 
-/*ÁÖ¹®ÀÌ ÀÖ´Â °í°´ÀÇ ÀÌ¸§°ú ÁÖ¼Ò¸¦ º¸ÀÌ½Ã¿À.*/
+/*ì£¼ë¬¸ì´ ìˆëŠ” ê³ ê°ì˜ ì´ë¦„ê³¼ ì£¼ì†Œë¥¼ ë³´ì´ì‹œì˜¤.*/
 select name, address
 from customer cs
 where exists (select *
