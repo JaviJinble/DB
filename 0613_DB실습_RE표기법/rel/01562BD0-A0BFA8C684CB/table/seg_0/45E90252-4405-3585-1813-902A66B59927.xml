@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45E90252-4405-3585-1813-902A66B59927" name="newCustomer">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:00:22 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="1A234AF5-21CD-5608-B58E-8DB52C2A8D14">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:01:35 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="10322FFC-8A4A-ADF1-D8CD-FDEAD94A4D63">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:01:59 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="9676F51F-BD11-02CA-AD96-AB3098B6890B">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:02:26 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF2DE3AB-B390-81D7-8E93-B9DD14C341E1" name="newCustomer_PK">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:01:18 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A234AF5-21CD-5608-B58E-8DB52C2A8D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

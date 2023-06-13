@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57974261-8261-802D-0E90-8C8D6FD58821" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="포켓몬">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>포켓몬</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>F5F6643F-CBB9-73DA-61C5-30199DC4FAAA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="도감번호" id="42E9F23C-5072-B2FB-2B57-37A62D2386D1">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬</sourceObjSchema>
+<sourceObjName>도감번호</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>18C6652F-35E0-D436-6726-D9B1387B1C78</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="이름" id="B0B39655-206B-DC07-C653-4424D58FBD7D">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬</sourceObjSchema>
+<sourceObjName>이름</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>8D65928F-358A-7B23-633C-4D676FE4D6C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="첫등장작품" id="DEAC9054-DCF0-2721-B0F7-301ED11E054E">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬</sourceObjSchema>
+<sourceObjName>첫등장작품</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>5CDB68D9-1009-A4F0-DAFB-B767564D9B66</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ADE5392-C7FC-55D3-0E6E-67FCF3711144" referredColumn="C437D084-6F6D-E9F9-C366-FC68A5A2AAC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0B1B158-4C0F-C5FF-7FB8-32BDC980B434" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="포켓몬_PK">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007062</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>876F295E-6811-2469-571E-2794DC05C60B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42E9F23C-5072-B2FB-2B57-37A62D2386D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C10610-ECA0-F5A2-0C84-955188672708" name="SYS_C007063">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEAC9054-DCF0-2721-B0F7-301ED11E054E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

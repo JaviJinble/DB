@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="CD969C50-6EF4-A6D3-60D2-DFE566B05994">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:38:22 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

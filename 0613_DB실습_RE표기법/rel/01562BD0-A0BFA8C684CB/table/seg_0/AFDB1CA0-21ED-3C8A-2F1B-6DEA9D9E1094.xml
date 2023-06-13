@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFDB1CA0-21ED-3C8A-2F1B-6DEA9D9E1094" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="CUSTOMER">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>12F13FB8-81F6-5940-BC91-1C9DA1DCED4B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTID" id="1A363323-E694-D67F-45DD-28A902C650B5">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTID</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>D13B957E-578B-1273-11B4-46E5A9848BEF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="BB2CABC5-C4E5-47BE-26BC-9BD62DC6B974">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>B3596784-EF69-B214-BFF5-3D9028E56BDE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="96544105-4D0B-234E-723D-E0693E22D627">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>52865286-61A3-52B8-6F55-1867E13E4B06</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="3CE257CF-FF8E-904C-55AB-D50F91219587">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>58F02D9A-2FF1-C77D-870B-765445D48A9A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DC3A0DD-EB54-F62C-A7A5-DE197900CB68" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="CUSTOMER_PK">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007000</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>20391A1D-9BAE-1BA2-F38B-8843E457EC8B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A363323-E694-D67F-45DD-28A902C650B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A331C783-83DE-D0AA-49F3-1EF558501792" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="포켓몬스터_게임">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>포켓몬스터_게임</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>22235527-B1A2-4E31-CEE5-ED355E852F7B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="타이틀이름" id="C437D084-6F6D-E9F9-C366-FC68A5A2AAC1">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬스터_게임</sourceObjSchema>
+<sourceObjName>타이틀이름</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>D2F54A91-8385-5F70-92D6-74C0E6CF9AFC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="가격" id="FC9C8D82-38BB-91F3-65EE-D5ABF02C92C4">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬스터_게임</sourceObjSchema>
+<sourceObjName>가격</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>F05442D5-1590-3370-393B-50ACAFAE55E0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="판매량" id="58AFA40B-1C91-0C19-3FEB-C2B0ACC111C6">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬스터_게임</sourceObjSchema>
+<sourceObjName>판매량</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>616474DD-DBAD-22DC-6325-B3D4815CFC0C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="출시일" id="EA08C0F8-AB5E-8672-81A8-05D597ED33C3">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬스터_게임</sourceObjSchema>
+<sourceObjName>출시일</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>072D4670-024E-78F3-E4E0-88A5C778DC97</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FFF0A59-8768-35D6-33C5-D58A39F65324" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="포켓몬스터_게임_PK">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007059</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>CE9894CE-5300-90AE-6A4C-CD04D7296A1C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C437D084-6F6D-E9F9-C366-FC68A5A2AAC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

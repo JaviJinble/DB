@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1ADE5392-C7FC-55D3-0E6E-67FCF3711144" containerWithKeyObject="57974261-8261-802D-0E90-8C8D6FD58821" localFKIndex="33C10610-ECA0-F5A2-0C84-955188672708" name="SYS_C007063">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007063</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>94D02936-62E0-72CB-05D2-4AF542509E61</importedID>
+<referredTableLongName>C##MADANG.포켓몬스터_게임</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A331C783-83DE-D0AA-49F3-1EF558501792</referredTableID>
+<keyObject>6FFF0A59-8768-35D6-33C5-D58A39F65324</keyObject>
+<referredKeyID>6FFF0A59-8768-35D6-33C5-D58A39F65324</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>타이틀이름</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

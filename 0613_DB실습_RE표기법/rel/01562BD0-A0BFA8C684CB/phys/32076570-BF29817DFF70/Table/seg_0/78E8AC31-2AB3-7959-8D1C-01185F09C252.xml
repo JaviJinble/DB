@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOK" directorySegmentName="seg_0" id="78E8AC31-2AB3-7959-8D1C-01185F09C252">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C6AE696-CE25-B4B6-BBDE-F5FEB0707951</segment>
+<tableSpace>8570096B-C605-213C-387A-841FAB31A042</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRICE" id="511594B6-E466-1C74-9897-91BDA5F87467">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKID" id="8B8DB0F1-4EF8-2DEB-79F8-FF77D2717702">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER" id="98E0361A-7810-F9FD-0154-FC99BFBDD65D">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKNAME" id="E6161628-FF88-3AC2-AB05-BEF14A71F6F0">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOK_PK" id="8B7E84CA-F205-823A-07E1-F387DFF70A0A">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<segment>6116D5EA-C921-5761-24E6-B47E89E5B7AF</segment>
+<tableSpace>8570096B-C605-213C-387A-841FAB31A042</tableSpace>
+<indexSegment>6116D5EA-C921-5761-24E6-B47E89E5B7AF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

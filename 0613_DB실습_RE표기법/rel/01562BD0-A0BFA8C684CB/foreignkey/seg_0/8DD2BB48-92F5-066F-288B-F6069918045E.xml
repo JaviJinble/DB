@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DD2BB48-92F5-066F-288B-F6069918045E" containerWithKeyObject="AC738303-1B5B-9FE0-910F-D09A7D1F809E" localFKIndex="B92BE1EB-21D0-0B2D-0E29-3D56E2EA6E61" name="SYS_C007003">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007003</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>9CF73D06-42CF-5095-DC7E-8A8CC5CB5FA7</importedID>
+<referredTableLongName>C##MADANG.BOOK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78E8AC31-2AB3-7959-8D1C-01185F09C252</referredTableID>
+<keyObject>8B7E84CA-F205-823A-07E1-F387DFF70A0A</keyObject>
+<referredKeyID>8B7E84CA-F205-823A-07E1-F387DFF70A0A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BOOKID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

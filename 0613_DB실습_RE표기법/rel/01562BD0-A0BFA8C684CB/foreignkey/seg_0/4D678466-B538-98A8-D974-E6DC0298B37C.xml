@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D678466-B538-98A8-D974-E6DC0298B37C" containerWithKeyObject="072F23BA-DB78-B274-120F-11759F43EFD9" localFKIndex="C15A8616-0941-01A5-FEF1-4599D22EC093" name="nueworder_newbook_FK">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:03:54 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<referredTableLongName>newbook</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C673CE07-4B20-4174-02B1-60D49F142CC0</referredTableID>
+<keyObject>E946BCB0-65F0-3C1E-B814-D018CB45B1AF</keyObject>
+<referredKeyID>E946BCB0-65F0-3C1E-B814-D018CB45B1AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bookid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

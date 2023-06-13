@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="newbook" directorySegmentName="seg_0" id="C673CE07-4B20-4174-02B1-60D49F142CC0">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="bookname" id="27B60463-30F9-CA38-4851-8B70AC226AB0">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="publisher" id="4BA4A455-5B5A-ADE1-8742-CCDD5DB3303A">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="bookid" id="912DE959-A438-9D60-6F90-164D16CFAE48">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="B01892B8-E5AF-65B8-4B2E-639294B47CA0">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="newbook_PK" id="E946BCB0-65F0-3C1E-B814-D018CB45B1AF">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

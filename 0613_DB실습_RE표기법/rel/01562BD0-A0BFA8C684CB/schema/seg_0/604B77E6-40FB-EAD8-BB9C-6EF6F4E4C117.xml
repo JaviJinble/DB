@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MDSYS" directorySegmentName="seg_0" id="604B77E6-40FB-EAD8-BB9C-6EF6F4E4C117">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>94CDA4FD-5DB2-E64B-FC24-CEA785DC9D35</importedID>
+</SchemaObject>

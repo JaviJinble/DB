@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##MADANG" directorySegmentName="seg_0" id="7344E843-CA89-C152-830D-AE54EA80C619">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>4E6FCA49-C8DC-B7E7-B885-E5790CF45EA1</importedID>
+</SchemaObject>

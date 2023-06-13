@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="포켓몬" directorySegmentName="seg_0" id="57974261-8261-802D-0E90-8C8D6FD58821">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C6AE696-CE25-B4B6-BBDE-F5FEB0707951</segment>
+<tableSpace>8570096B-C605-213C-387A-841FAB31A042</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="도감번호" id="42E9F23C-5072-B2FB-2B57-37A62D2386D1">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="이름" id="B0B39655-206B-DC07-C653-4424D58FBD7D">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="첫등장작품" id="DEAC9054-DCF0-2721-B0F7-301ED11E054E">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007063" id="33C10610-ECA0-F5A2-0C84-955188672708">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="포켓몬_PK" id="E0B1B158-4C0F-C5FF-7FB8-32BDC980B434">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<segment>6116D5EA-C921-5761-24E6-B47E89E5B7AF</segment>
+<tableSpace>8570096B-C605-213C-387A-841FAB31A042</tableSpace>
+<indexSegment>6116D5EA-C921-5761-24E6-B47E89E5B7AF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

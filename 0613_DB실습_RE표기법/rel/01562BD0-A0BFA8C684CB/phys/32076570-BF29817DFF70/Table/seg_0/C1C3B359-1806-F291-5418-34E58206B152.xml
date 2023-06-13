@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="포켓몬스터_출시국가" directorySegmentName="seg_0" id="C1C3B359-1806-F291-5418-34E58206B152">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C6AE696-CE25-B4B6-BBDE-F5FEB0707951</segment>
+<tableSpace>8570096B-C605-213C-387A-841FAB31A042</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="타이틀이름" id="401CD5EC-D6B3-1BF9-D5AA-E2FB24C020DD">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="출시국가" id="B42375E9-99AD-FCF6-8BAE-F01B41F34B2B">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007061" id="54235439-A2FE-AAA7-8BA5-C21FDFA9945B">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="포켓몬스터_출시국가_PK" id="1BF6BB8D-A995-516B-D28D-A04DA3BAD5CF">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<segment>6116D5EA-C921-5761-24E6-B47E89E5B7AF</segment>
+<tableSpace>8570096B-C605-213C-387A-841FAB31A042</tableSpace>
+<indexSegment>6116D5EA-C921-5761-24E6-B47E89E5B7AF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

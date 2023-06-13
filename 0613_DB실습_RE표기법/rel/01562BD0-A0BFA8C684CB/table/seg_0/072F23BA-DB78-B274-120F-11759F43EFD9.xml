@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="072F23BA-DB78-B274-120F-11759F43EFD9" name="nueworder">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:57:12 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderid" id="DBBA7B32-A79A-61DB-A294-533BE71A1A6E">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:57:42 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookid" id="656AC208-593A-3472-67B2-7E37C7482F03">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:57:58 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="91D52CD1-2656-C8A2-0297-A3DC5FC1F9AA">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:58:22 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderdate" id="540C68BC-4691-B812-BEB0-493B431C7123">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:58:49 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saleprice" id="8496329D-CC93-B874-6706-066DC21C2D93">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:59:38 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="newbook_bookid" id="CE49FC08-B346-1B56-F2EB-4051012F1B6B">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:03:54 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D678466-B538-98A8-D974-E6DC0298B37C" referredColumn="912DE959-A438-9D60-6F90-164D16CFAE48"/>
+</associations>
+</Column>
+<Column name="newCustomer_name" id="7B524839-8F79-5E8A-0200-57BDC168D605">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:07:32 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BCA4D7B-E25A-3B51-82FC-DAAD4DEB3D03" referredColumn="1A234AF5-21CD-5608-B58E-8DB52C2A8D14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2F9D76A-4099-5AD9-D360-687DA82AC28A" name="nueworder_PK">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:59:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBBA7B32-A79A-61DB-A294-533BE71A1A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C15A8616-0941-01A5-FEF1-4599D22EC093" name="nueworder_newbook_FK">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:03:54 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE49FC08-B346-1B56-F2EB-4051012F1B6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="759328E5-3D6B-C549-F77F-C20A3BADD465" name="nueworder_newCustomer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:07:32 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B524839-8F79-5E8A-0200-57BDC168D605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="093EAEE6-84AB-4034-98DB-4D02EE0795C5" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="포켓몬_타입">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>포켓몬_타입</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>F7D1B388-097C-180F-243C-8B294664A414</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="도감번호" id="914E1E4F-5F48-EE0B-77A3-A0AEE314C8E3">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬_타입</sourceObjSchema>
+<sourceObjName>도감번호</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>91181033-87BE-C35E-4203-31A0A0861565</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27DEBB8B-A916-8C75-8447-BD1403C5FA01" referredColumn="42E9F23C-5072-B2FB-2B57-37A62D2386D1"/>
+</associations>
+</Column>
+<Column name="타입" id="DAB81294-B659-74FB-D988-4DBB6234F2E9">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>포켓몬_타입</sourceObjSchema>
+<sourceObjName>타입</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>9F05AD93-ED3A-AC5A-5ED0-70E37CA151D0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCDA60F4-7426-29E4-2E40-1F362F92FF21" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="포켓몬_타입_PK">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007064</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>3D92A2B9-7DF8-E30D-BD17-B4F84042129F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="914E1E4F-5F48-EE0B-77A3-A0AEE314C8E3"/>
+<colUsage columnID="DAB81294-B659-74FB-D988-4DBB6234F2E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B8BA0B1-87FF-BE49-1FDF-AF238ED5EB95" name="SYS_C007065">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:15:08 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="914E1E4F-5F48-EE0B-77A3-A0AEE314C8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

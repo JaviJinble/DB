@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##MADANG" directorySegmentName="seg_0" id="E62F0700-3F59-60E4-A874-E7A487D5C89E">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjName>C##MADANG</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:31 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>7344E843-CA89-C152-830D-AE54EA80C619</schemaObject>
+<defTableSpace>8570096B-C605-213C-387A-841FAB31A042</defTableSpace>
+<privileges>UNLIMITED TABLESPACE, CREATE VIEW, CREATE SYNONYM</privileges>
+</UserOraclev10g>

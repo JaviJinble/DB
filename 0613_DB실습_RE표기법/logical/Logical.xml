@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4C126E6E-57B9-2D03-C356-3A80C1400ADD" mainViewID="766E19D8-27D0-C1A4-3500-8E5AFA71EE64">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 00:38:22 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

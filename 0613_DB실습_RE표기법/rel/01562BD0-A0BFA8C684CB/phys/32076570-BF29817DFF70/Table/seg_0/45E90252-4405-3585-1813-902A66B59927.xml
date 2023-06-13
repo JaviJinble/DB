@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="newCustomer" directorySegmentName="seg_0" id="45E90252-4405-3585-1813-902A66B59927">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="address" id="10322FFC-8A4A-ADF1-D8CD-FDEAD94A4D63">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="1A234AF5-21CD-5608-B58E-8DB52C2A8D14">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone" id="9676F51F-BD11-02CA-AD96-AB3098B6890B">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="newCustomer_PK" id="FF2DE3AB-B390-81D7-8E93-B9DD14C341E1">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:13:33 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

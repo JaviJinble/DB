@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC738303-1B5B-9FE0-910F-D09A7D1F809E" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="ORDERS">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>4B85F7B6-F5DD-CB81-45D7-0553DF6E3F75</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDERID" id="EF04E37B-E7E2-736C-13F0-3E651BB98FF9">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERID</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>A6B1C14E-DFB9-3AEB-EC9D-5A872E78EA52</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTID" id="D7D3CAB0-23F4-DEE6-02D0-16F567FA7454">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTID</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>22F22AD9-7F7D-EC42-899E-B71622E4BB02</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41D98E95-643E-D4E5-2005-0CA18998F1CE" referredColumn="1A363323-E694-D67F-45DD-28A902C650B5"/>
+</associations>
+</Column>
+<Column name="BOOKID" id="0F9F9385-17F5-0D9D-74A4-EBCF0AE28092">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>457E1518-D34F-212F-A21F-BA9355180845</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DD2BB48-92F5-066F-288B-F6069918045E" referredColumn="8B8DB0F1-4EF8-2DEB-79F8-FF77D2717702"/>
+</associations>
+</Column>
+<Column name="SALEPRICE" id="D2E76F32-8C13-3788-7859-7F1CE4B7E05B">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SALEPRICE</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>AEE30F56-42C2-6EDC-C35B-009591AE0E0D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERDATE" id="8969D4EE-3055-1B3F-34C8-85440C747DCB">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERDATE</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>D5EF6E53-3CDF-64F3-9DA8-61A2650210C1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62C46DB4-2533-3450-F3A7-C2BA44C5061E" schemaObject="7344E843-CA89-C152-830D-AE54EA80C619" name="ORDERS_PK">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007001</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<importedID>7120C71B-CB98-F7C8-88C1-69B8EDBFDB23</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF04E37B-E7E2-736C-13F0-3E651BB98FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C78DD8-1643-7C38-90A1-FCE9DF725C87" name="SYS_C007002">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7D3CAB0-23F4-DEE6-02D0-16F567FA7454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B92BE1EB-21D0-0B2D-0E29-3D56E2EA6E61" name="SYS_C007003">
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:14:10 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F9F9385-17F5-0D9D-74A4-EBCF0AE28092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

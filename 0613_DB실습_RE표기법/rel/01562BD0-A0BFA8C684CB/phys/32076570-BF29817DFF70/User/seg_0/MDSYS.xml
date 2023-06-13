@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MDSYS" directorySegmentName="seg_0" id="MDSYS">
+<sourceConnName>MD_madang</sourceConnName>
+<sourceObjName>MDSYS</sourceObjName>
+<createdBy>pc</createdBy>
+<createdTime>2023-06-13 01:03:54 UTC</createdTime>
+<ownerDesignName>0613_DB실습_RE표기법</ownerDesignName>
+<schemaObject>604B77E6-40FB-EAD8-BB9C-6EF6F4E4C117</schemaObject>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+</UserOraclev10g>
